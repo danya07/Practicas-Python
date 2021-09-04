@@ -1,8 +1,8 @@
-def palindromo(palabra):
-    palabra = palabra.replace(' ', '')
-    palabra = palabra.lower()
-    palabra_invertida = palabra[::-1]
-    return palabra == palabra_invertida
+def palindromo(texto):
+    texto = texto.replace(' ', '')
+    texto = texto.lower()
+    texto_invertido = texto[::-1]
+    return texto == texto_invertido
 
 
 def run():
